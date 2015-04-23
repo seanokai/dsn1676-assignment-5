@@ -13,3 +13,11 @@ $form.on('submit', function (e) {
         $li.remove('li');
     });
     
+    $list.on('click', 'li', function () {
+        $(this).addClass('complete');
+    });
+    
+    $li.append($inputDl);
+    $list.prepend($li);
+    $input.val('');
+});
