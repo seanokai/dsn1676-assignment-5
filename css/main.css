@@ -1,0 +1,36 @@
+@charset "utf-8";
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #f9fcf0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    overflow:hidden;
+    background-color: #E6E0F8;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin: 2em;
+    color: #ccc;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+form{
+    text-align:center;
+    overflow:hidden;
+    padding-bottom: 2em;
+}
