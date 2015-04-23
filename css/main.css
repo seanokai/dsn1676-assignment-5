@@ -21,9 +21,9 @@ html {
 
 body {
     overflow:hidden;
-    background-color: #E6E0F8;
-    border: 1px solid #ccc;
-    border-radius: 1em;
+    background-color: #EBCEAC;
+    border: 1px solid #C76E06;
+    border-radius: 0.5em;
     margin: 2em;
     color: #ccc;
     font-family: 'Fjalla One', sans-serif;
@@ -42,7 +42,7 @@ form{
 }
 
 .top-box {
-    background-color: #f2f8e0;
+    background-color: #615E3F;
     border-radius: 1em 1em 0 0;
 }
 
@@ -114,3 +114,50 @@ li {
     background-color:#707070;
     color:white;
 }
+
+@media only screen and(min-width: 38em) {
+    .xbutton {
+        width: 2%;
+    }
+    
+    .add {
+        width: 5%;
+    }
+    
+    form input {
+        margin-left:17em;
+    }
+}
+@media only screen and (min-width: 60em) {
+    .xbutton {
+        width: 2%;
+    }
+    
+    .add {
+        width: 5%;
+    }
+    
+    form input {
+        margin-left: 17em;
+    }
+}
+
+@media only screen and (min-width: 80em) {
+    .xbutton {
+        width:2%;
+    }
+    .add {
+        width:5%;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    .xbutton {
+        width: 2%;
+    }
+    .add {
+        width: 5%;
+    }
+}
+
