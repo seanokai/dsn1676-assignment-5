@@ -8,7 +8,7 @@
 html {
   box-sizing: border-box;
 
-	-moz-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -21,12 +21,12 @@ html {
 
 body {
     overflow:hidden;
-    background-color: #EBCEAC;
-    border: 1px solid #C76E06;
-    border-radius: 0.5em;
+    background-color: #AA5303;
+    border: 1px solid #ccc;
+    border-radius: 1em;
     margin: 2em;
     color: #ccc;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 form{
@@ -42,7 +42,7 @@ form{
 }
 
 .top-box {
-    background-color: #615E3F;
+    background-color: #C75D4D;
     border-radius: 1em 1em 0 0;
 }
 
@@ -75,7 +75,7 @@ form input {
 }
 
 .add:hover {
-    background-color:#E6E0F8;
+    background-color:#CDB7B5;
     color:white;
 }
 
@@ -101,7 +101,7 @@ li {
 .xbutton {
     width: 8%;
     padding: 0.5em;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Arial', sans-serif;
     color:#888888;
     background-color:#eee;
     border-radius: 0.4em;
